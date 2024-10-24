@@ -96,6 +96,40 @@
             text-align: center;
             padding: 10px 0;
         }
+        /* Estilos básicos para el menú */
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+        }
+        .menu > li {
+            position: relative;
+        }
+        .menu > li > a {
+            display: block;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .menu > li > a:hover {
+            background-color: #575757;
+        }
+        .submenu {
+            display: none;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #444;
+        }
+        .submenu li a {
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .submenu li a:hover {
+            background-color: #666;
+        }
     </style>
 </head>
 
